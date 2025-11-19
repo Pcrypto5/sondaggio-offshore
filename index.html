@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>From Offshore to Onshore - Sondaggio</title>
+    <title>From Offshore to Onshore - Survey</title>
     <style>
         * {
             margin: 0;
@@ -247,95 +247,95 @@
     <div class="container">
         <div class="header">
             <h1>From Offshore to Onshore</h1>
-            <p>Compila il sondaggio per ricevere informazioni personalizzate sui nostri servizi di asset protection e residenza fiscale</p>
+            <p>Complete the survey to receive personalized information about our asset protection and tax residency services</p>
         </div>
 
         <form id="surveyForm" action="https://formspree.io/f/xjklylgk" method="POST">
             
-            <!-- Domanda 1: Nome e Email -->
+            <!-- Question 1: Name and Email -->
             <div class="form-group">
-                <label for="name">Nome e Cognome <span class="required">*</span></label>
-                <input type="text" id="name" name="nome" required placeholder="Es. Mario Rossi">
+                <label for="name">Full Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" required placeholder="e.g. John Smith">
             </div>
 
             <div class="form-group">
                 <label for="email">Email <span class="required">*</span></label>
-                <input type="email" id="email" name="email" required placeholder="mario.rossi@email.com">
+                <input type="email" id="email" name="email" required placeholder="john.smith@email.com">
             </div>
 
-            <!-- Domanda 2: Destinazione di interesse -->
+            <!-- Question 2: Destination of Interest -->
             <div class="form-group">
-                <label for="destination">Quale destinazione ti interessa di più? <span class="required">*</span></label>
-                <select id="destination" name="destinazione" required>
-                    <option value="">-- Seleziona --</option>
-                    <option value="Svizzera">Svizzera</option>
+                <label for="destination">Which destination interests you most? <span class="required">*</span></label>
+                <select id="destination" name="destination" required>
+                    <option value="">-- Please Select --</option>
+                    <option value="Switzerland">Switzerland</option>
                     <option value="Panama">Panama</option>
-                    <option value="UAE">UAE (Emirati Arabi)</option>
+                    <option value="UAE">UAE (United Arab Emirates)</option>
                     <option value="Paraguay">Paraguay</option>
-                    <option value="Più destinazioni">Più destinazioni</option>
-                    <option value="Altro">Altro</option>
+                    <option value="Multiple destinations">Multiple destinations</option>
+                    <option value="Other">Other</option>
                 </select>
             </div>
 
-            <!-- Domanda 3: Priorità principale -->
+            <!-- Question 3: Main Priority -->
             <div class="form-group">
-                <label for="priority">Qual è la tua priorità principale? <span class="required">*</span></label>
-                <select id="priority" name="priorita" required>
-                    <option value="">-- Seleziona --</option>
-                    <option value="Ottimizzazione fiscale">Ottimizzazione fiscale</option>
+                <label for="priority">What is your main priority? <span class="required">*</span></label>
+                <select id="priority" name="priority" required>
+                    <option value="">-- Please Select --</option>
+                    <option value="Tax optimization">Tax optimization</option>
                     <option value="Asset protection">Asset protection</option>
                     <option value="Golden Visa">Golden Visa</option>
-                    <option value="Piano B/Residenza alternativa">Piano B / Residenza alternativa</option>
-                    <option value="Cittadinanza per investimento">Cittadinanza per investimento</option>
-                    <option value="Altro">Altro</option>
+                    <option value="Plan B / Alternative residency">Plan B / Alternative residency</option>
+                    <option value="Citizenship by investment">Citizenship by investment</option>
+                    <option value="Other">Other</option>
                 </select>
             </div>
 
-            <!-- Domanda 4: Tipo di approfondimento -->
+            <!-- Question 4: How to Learn More -->
             <div class="form-group">
-                <label>Come preferisci approfondire? <span class="required">*</span></label>
+                <label>How would you like to learn more? <span class="required">*</span></label>
                 <div class="radio-group">
                     <div class="radio-option">
-                        <input type="radio" id="webinar" name="approfondimento" value="Webinar Zoom" required>
-                        <label for="webinar">Webinar Zoom (online)</label>
+                        <input type="radio" id="webinar" name="learn_more" value="Zoom Webinar" required>
+                        <label for="webinar">Zoom Webinar (online)</label>
                     </div>
                     <div class="radio-option">
-                        <input type="radio" id="convegno" name="approfondimento" value="Convegno in presenza" required>
-                        <label for="convegno">Convegno in presenza</label>
+                        <input type="radio" id="conference" name="learn_more" value="In-person Conference" required>
+                        <label for="conference">In-person Conference</label>
                     </div>
                     <div class="radio-option">
-                        <input type="radio" id="consulenza" name="approfondimento" value="Consulenza personalizzata" required>
-                        <label for="consulenza">Consulenza personalizzata 1-to-1</label>
+                        <input type="radio" id="consultation" name="learn_more" value="Personalized Consultation" required>
+                        <label for="consultation">Personalized 1-on-1 Consultation</label>
                     </div>
                 </div>
             </div>
 
-            <!-- Note aggiuntive (opzionale) -->
+            <!-- Additional Notes (Optional) -->
             <div class="form-group">
-                <label for="notes">Note o domande aggiuntive (opzionale)</label>
-                <textarea id="notes" name="note" placeholder="Inserisci eventuali domande o specifiche richieste..."></textarea>
+                <label for="notes">Additional notes or questions (optional)</label>
+                <textarea id="notes" name="notes" placeholder="Enter any questions or specific requests..."></textarea>
             </div>
 
             <!-- Privacy Policy -->
             <div class="privacy-box">
-                <h3>📋 Informativa Privacy</h3>
-                <p>I dati personali forniti saranno trattati esclusivamente per rispondere alla tua richiesta di informazioni e per inviarti comunicazioni relative ai nostri servizi. I tuoi dati non saranno ceduti a terzi e potrai richiederne la cancellazione in qualsiasi momento contattandoci via email. Il trattamento dei dati avviene nel rispetto del GDPR (Regolamento UE 2016/679).</p>
+                <h3>📋 Privacy Policy</h3>
+                <p>The personal data provided will be processed exclusively to respond to your request for information and to send you communications related to our services. Your data will not be shared with third parties and you may request its deletion at any time by contacting us via email. Data processing is carried out in compliance with GDPR (EU Regulation 2016/679).</p>
             </div>
 
             <div class="privacy-checkbox">
-                <input type="checkbox" id="privacy" name="privacy_accettata" required>
-                <label for="privacy">Accetto l'informativa privacy e autorizzo il trattamento dei miei dati personali <span class="required">*</span></label>
+                <input type="checkbox" id="privacy" name="privacy_accepted" required>
+                <label for="privacy">I accept the privacy policy and authorize the processing of my personal data <span class="required">*</span></label>
             </div>
 
             <!-- Submit Button -->
-            <button type="submit" class="submit-btn">Invia Sondaggio</button>
+            <button type="submit" class="submit-btn">Submit Survey</button>
 
             <!-- Success/Error Messages -->
             <div class="success-message" id="successMessage">
-                ✅ Grazie! Il tuo sondaggio è stato inviato con successo. Ti contatteremo presto!
+                ✅ Thank you! Your survey has been submitted successfully. We will contact you soon!
             </div>
             <div class="error-message" id="errorMessage">
-                ❌ Si è verificato un errore. Riprova o contattaci direttamente via email.
+                ❌ An error occurred. Please try again or contact us directly via email.
             </div>
         </form>
     </div>
@@ -350,9 +350,9 @@
             const successMsg = document.getElementById('successMessage');
             const errorMsg = document.getElementById('errorMessage');
 
-            // Disabilita il pulsante durante l'invio
+            // Disable button during submission
             submitBtn.disabled = true;
-            submitBtn.textContent = 'Invio in corso...';
+            submitBtn.textContent = 'Submitting...';
 
             fetch(form.action, {
                 method: 'POST',
@@ -366,26 +366,24 @@
                     successMsg.style.display = 'block';
                     errorMsg.style.display = 'none';
                     form.reset();
-                    submitBtn.textContent = 'Inviato ✓';
+                    submitBtn.textContent = 'Submitted ✓';
                     
-                    // Riabilita dopo 3 secondi
+                    // Re-enable after 3 seconds
                     setTimeout(() => {
                         submitBtn.disabled = false;
-                        submitBtn.textContent = 'Invia Sondaggio';
+                        submitBtn.textContent = 'Submit Survey';
                     }, 3000);
                 } else {
-                    throw new Error('Errore invio');
+                    throw new Error('Submission error');
                 }
             })
             .catch(error => {
                 errorMsg.style.display = 'block';
                 successMsg.style.display = 'none';
                 submitBtn.disabled = false;
-                submitBtn.textContent = 'Invia Sondaggio';
+                submitBtn.textContent = 'Submit Survey';
             });
         });
     </script>
 </body>
 </html>
-
-
